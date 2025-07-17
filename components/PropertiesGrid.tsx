@@ -4,7 +4,8 @@ import { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { MapPin, Square, Eye, Heart, Filter } from 'lucide-react';
+import { MapPin, Square, Eye, Heart, Filter } from 'lucide-react'; 
+import Link from 'next/link';
 
 const allProperties = [
   {
